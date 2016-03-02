@@ -1,0 +1,38 @@
+.btn-group{
+    float: right;
+}
+.edit-icon{
+    border: black solid 2px;
+    text-decoration: none;
+    padding: 2px;
+}
+.edit-icon a{
+    color: black;
+}
+ul.nav-tabs{
+    display: none;
+}
+
+/* breadcrumbs */
+.breadcrumb li{
+    float: left;
+}
+
+/* buttons en links die we niet aan de gebruiker willen laten zien */
+#publishing,
+#language,
+#metadata,
+#editor-xtd-buttons,
+#wf_editor_jform_articletext_toggle{
+    display: none;
+}
+
+div.tooltip{
+   background-color: #E3E6F0;
+   position:absolute !important;
+   padding: 5px;
+   border: 1px solid black
+}
+div.tooltip > strong{
+   font: italic bold
+}
